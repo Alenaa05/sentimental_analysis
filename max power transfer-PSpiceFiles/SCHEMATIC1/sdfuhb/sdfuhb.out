@@ -1,0 +1,87 @@
+
+**** 12/06/23 22:01:55 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-sdfuhb"  [ C:\Users\alena\AppData\Roaming\SPB_Data\max power transfer-PSpiceFiles\SCHEMATIC1\sdfuhb.sim ] 
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "sdfuhb.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\Users\alena\AppData\Roaming\SPB_Data\cdssetup\OrCAD_PSpice\17.2.0\PSpice.ini file:
+.lib "nomd.lib" 
+
+*Analysis directives: 
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source MAX POWER TRANSFER
+R_R1         N00156 N00163  0.5  
+R_R3         N00163 N00171  3  
+R_R4         0 N00163  2  
+V_V1         N00156 0 12
+R_R2         0 N00163  1  
+R_R5         0 N00171  3.72  
+
+**** RESUMING sdfuhb.cir ****
+.END
+
+**** 12/06/23 22:01:55 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-sdfuhb"  [ C:\Users\alena\AppData\Roaming\SPB_Data\max power transfer-PSpiceFiles\SCHEMATIC1\sdfuhb.sim ] 
+
+
+ ****     SMALL SIGNAL BIAS SOLUTION       TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(N00156)   12.0000 (N00163)    6.5775 (N00171)    3.6411 
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V_V1        -1.085E+01
+
+    TOTAL POWER DISSIPATION   1.30E+02  WATTS
+
+
+
+          JOB CONCLUDED
+
+**** 12/06/23 22:01:55 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-sdfuhb"  [ C:\Users\alena\AppData\Roaming\SPB_Data\max power transfer-PSpiceFiles\SCHEMATIC1\sdfuhb.sim ] 
+
+
+ ****     JOB STATISTICS SUMMARY
+
+
+******************************************************************************
+
+
+
+  Total job time (using Solver 1)   =        0.00
+

@@ -1,0 +1,100 @@
+
+**** 12/07/23 13:02:51 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-gfrsd"  [ C:\Users\alena\AppData\Roaming\SPB_Data\rlc-PSpiceFiles\SCHEMATIC1\gfrsd.sim ] 
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "gfrsd.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\Users\alena\AppData\Roaming\SPB_Data\cdssetup\OrCAD_PSpice\17.2.0\PSpice.ini file:
+.lib "nomd.lib" 
+
+*Analysis directives: 
+.AC DEC 10000 1k 10k
+.OP
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source RLC
+R_R1         N00137 N00144  1k  
+C_C1         N00148 0  .056uF  
+L_L1         N00144 N00148  50mH  
+V_V1         N00137 0 DC 0Vdc AC 230mV 
+
+**** RESUMING gfrsd.cir ****
+.END
+
+**** 12/07/23 13:02:51 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-gfrsd"  [ C:\Users\alena\AppData\Roaming\SPB_Data\rlc-PSpiceFiles\SCHEMATIC1\gfrsd.sim ] 
+
+
+ ****     SMALL SIGNAL BIAS SOLUTION       TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(N00137)    0.0000 (N00144)    0.0000 (N00148)    0.0000 
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V_V1         0.000E+00
+
+    TOTAL POWER DISSIPATION   0.00E+00  WATTS
+
+
+**** 12/07/23 13:02:51 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-gfrsd"  [ C:\Users\alena\AppData\Roaming\SPB_Data\rlc-PSpiceFiles\SCHEMATIC1\gfrsd.sim ] 
+
+
+ ****     OPERATING POINT INFORMATION      TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+
+
+          JOB CONCLUDED
+
+**** 12/07/23 13:02:51 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-gfrsd"  [ C:\Users\alena\AppData\Roaming\SPB_Data\rlc-PSpiceFiles\SCHEMATIC1\gfrsd.sim ] 
+
+
+ ****     JOB STATISTICS SUMMARY
+
+
+******************************************************************************
+
+
+
+  Total job time (using Solver 1)   =         .13
+

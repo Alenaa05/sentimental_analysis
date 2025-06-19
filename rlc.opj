@@ -1,0 +1,129 @@
+(ExpressProject "rlc"
+  (ProjectVersion "19981106")
+  (ProjectType "Analog or A/D Mixed Mode")
+  (Folder "Design Resources"
+    (Folder "Library")
+    (NoModify)
+    (File ".\rlc.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (PSPICE_Regenerate_Netlist_Flag "FALSE"))
+  (Folder "Outputs"
+    (File ".\rlc-pspicefiles\schematic1\schematic1.net"
+      (Type "Report")))
+  (Folder "PSpice Resources"
+    (Folder "Simulation Profiles"
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\rlc-pspicefiles\schematic1\sejkj.sim"
+        (DisplayName "SCHEMATIC1-sejkj")
+        (Type "PSpice Profile"))
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\rlc-pspicefiles\schematic1\srh.sim"
+        (DisplayName "SCHEMATIC1-srh")
+        (Type "PSpice Profile"))
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\rlc-pspicefiles\schematic1\hyg.sim"
+        (DisplayName "SCHEMATIC1-hyg")
+        (Type "PSpice Profile"))
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\rlc-pspicefiles\schematic1\hgh.sim"
+        (DisplayName "SCHEMATIC1-hgh")
+        (Type "PSpice Profile"))
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\rlc-pspicefiles\schematic1\uyg.sim"
+        (DisplayName "SCHEMATIC1-uyg")
+        (Type "PSpice Profile"))
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\rlc-pspicefiles\schematic1\adjbc.sim"
+        (DisplayName "SCHEMATIC1-adjbc")
+        (Type "PSpice Profile"))
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\rlc-pspicefiles\schematic1\dshc.sim"
+        (DisplayName "SCHEMATIC1-dshc")
+        (Type "PSpice Profile"))
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\rlc-pspicefiles\schematic1\hg.sim"
+        (DisplayName "SCHEMATIC1-hg")
+        (Type "PSpice Profile"))
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\rlc-pspicefiles\schematic1\fkj.sim"
+        (DisplayName "SCHEMATIC1-fkj")
+        (Type "PSpice Profile"))
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\rlc-pspicefiles\schematic1\vg.sim"
+        (DisplayName "SCHEMATIC1-vg")
+        (Type "PSpice Profile"))
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\rlc-pspicefiles\schematic1\mkj.sim"
+        (DisplayName "SCHEMATIC1-MKJ")
+        (Type "PSpice Profile"))
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\rlc-pspicefiles\schematic1\fwrf.sim"
+        (DisplayName "SCHEMATIC1-fwrf")
+        (Type "PSpice Profile"))
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\rlc-pspicefiles\schematic1\gfrsd.sim"
+        (DisplayName "SCHEMATIC1-gfrsd")
+        (Type "PSpice Profile"))
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\rlc-pspicefiles\schematic1\jadsc.sim"
+        (DisplayName "SCHEMATIC1-jadsc")
+        (Type "PSpice Profile"))
+      (ActiveProfile ".\rlc-pspicefiles\schematic1\dfv.sim")
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\rlc-pspicefiles\schematic1\dfv.sim"
+        (DisplayName "SCHEMATIC1-dfv")
+        (Type "PSpice Profile")))
+    (Folder "Model Libraries"
+      (Sort User))
+    (Folder "Stimulus Files"
+      (Sort User))
+    (Folder "Include Files"
+      (Sort User)))
+  (DefaultLibraryBrowseDirectory "library\PSpice")
+  (PartMRUSelector
+    (0
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (VAC
+      (FullPartName "VAC.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\PSPICE\SOURCE.OLB")
+      (DeviceIndex "0"))
+    (L
+      (FullPartName "L.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\PSPICE\FILTSUB.OLB")
+      (DeviceIndex "0"))
+    (C
+      (FullPartName "C.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\PSPICE\FILTSUB.OLB")
+      (DeviceIndex "0"))
+    (R
+      (FullPartName "R.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\PSPICE\FILTSUB.OLB")
+      (DeviceIndex "0")))
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Outputs")
+      (Select "Design Resources"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 0 200 0 274"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 52 1088 52 365")
+        (Scroll "-9 0")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path "C:\USERS\ALENA\APPDATA\ROAMING\SPB_DATA\RLC.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "PAGE1"))))

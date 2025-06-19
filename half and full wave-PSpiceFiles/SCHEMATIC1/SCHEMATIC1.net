@@ -1,0 +1,5 @@
+* source HALF AND FULL WAVE
+R_R1         0 N00117  2  
+D_D1         N00110 N00117 D1N4007 
+V_V1         N00110 0  AC 0
++SIN 0 230 50 0 0 0

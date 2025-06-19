@@ -1,0 +1,5 @@
+* source RLC
+R_R1         N00137 N00144  1k  
+C_C1         N00148 0  .056uF  
+L_L1         N00144 N00148  50mH  
+V_V1         N00137 0 DC 0Vdc AC 230mV 

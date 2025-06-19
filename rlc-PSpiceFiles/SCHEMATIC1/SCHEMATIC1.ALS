@@ -1,0 +1,6 @@
+.ALIASES
+R_R1            R1(1=N00137 2=N00144 ) CN @RLC.SCHEMATIC1(sch_1):INS26@FILTSUB.R.Normal(chips)
+C_C1            C1(1=N00148 2=0 ) CN @RLC.SCHEMATIC1(sch_1):INS51@FILTSUB.C.Normal(chips)
+L_L1            L1(1=N00144 2=N00148 ) CN @RLC.SCHEMATIC1(sch_1):INS76@FILTSUB.L.Normal(chips)
+V_V1            V1(+=N00137 -=0 ) CN @RLC.SCHEMATIC1(sch_1):INS103@SOURCE.VAC.Normal(chips)
+.ENDALIASES
